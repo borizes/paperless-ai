@@ -12,7 +12,7 @@ const pipeline = promisify(stream.pipeline);
 class ChatService {
   constructor() {
     this.chats = new Map(); // Stores chat histories: documentId -> messages[]
-    this.tempDir = path.join(os.tmpdir(), 'paperless-chat');
+    this.tempDir = path.join(os.tmpdir(), 'document-chat');
     
     // Create temporary directory if it doesn't exist
     if (!fs.existsSync(this.tempDir)) {

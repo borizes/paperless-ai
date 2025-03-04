@@ -576,7 +576,7 @@ class URLValidator {
             Swal.fire({
                 icon: 'error',
                 title: 'Invalid URL',
-                text: 'Please enter a valid URL. ( http[s]://your-paperless-instance:8000 )',
+                text: 'Please enter a valid URL. ( http[s]://document-management-system:8000 )',
                 customClass: {
                     container: 'z-50'
                 }
@@ -647,8 +647,8 @@ class TooltipManager {
                     <p class="font-semibold">Examples:</p>
                     <ul class="list-none space-y-1">
                         <li>🔸 Local IP: <code>http://192.168.1.100:8000</code></li>
-                        <li>🔸 Container: <code>http://paperless-ngx:8000</code></li>
-                        <li>🔸 Remote: <code>http://paperless.domain.com</code></li>
+                        <li>🔸 Container: <code>http://document-management-system:8000</code></li>
+                        <li>🔸 Remote: <code>http://document-management-system.domain.com</code></li>
                     </ul>
                 </div>
 
